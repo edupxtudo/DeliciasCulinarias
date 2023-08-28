@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicias Culinarias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#contacto">Contácto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio">
+        <br><br><h2>Bienvenido a Delicias Culinarias</h2>
+        <p>Experimenta una mezcla única de sabores y aromas que deleitarán tus sentidos.</p>
+    </section>
+    <section id="menu">
+        <h2>Menú Exclusivo</h2>
+        <div class="plato">
+            <h3>Plato 1</h3>
+            <p>Descripción del plato 1. Ingredientes frescos y sabores únicos.</p>
+            <p>Valor: $15.99</p>
+        </div>
+        <div class="plato">
+            <h3>Plato 2</h3>
+            <p>Descripción del plato 2. Una combinación perfecta de texturas.</p>
+            <p>Valor: $12.99</p>
+        </div>
+        <div class="plato">
+            <h3>Plato 3</h3>
+            <p>Descripción del plato 3. Una experiencia gastronómica inigualable.</p>
+            <p>Valor: $18.99</p>
+        </div>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" name="correo" id="correo" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" rows="4" required></textarea>
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+</body>
+</html>
